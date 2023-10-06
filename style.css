@@ -1,0 +1,107 @@
+hmtl,body {
+    margin:0;
+    padding:0;
+    font-family: system-ui;
+    color: rgb(16, 17, 16);
+}
+h1 {
+    color:whitesmoke;
+    font-weight: 900;
+}
+h2 {
+    color:rgba(6, 45, 221, 0.808);
+}
+h3{
+    color:blueviolet;
+    text-decoration: underline;
+}
+.bg-container {
+    width:100%;
+    min-height:100vh;
+ 
+    background-image: url("rm380-10.png");
+}
+.header {
+    background-color: rgb(47, 50, 238);
+    width:100%;
+    min-height:6vh;
+    max-height: 8vh;
+    padding:5px;
+    box-shadow: 20px 20px 50px rgb(90, 88, 88);
+}
+.list {
+    color:rgba(11, 2, 20, 0.774);
+    font-size:large;
+}
+.list-1 {
+  margin-bottom:10px;
+  margin-top: 10px;
+}
+.icon {
+    height:4vh;
+    width:auto;
+    margin: 5px;
+
+}
+.head-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.icon-container {
+    display: flex;
+    padding:5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.heading {
+   font-weight: 400;
+   margin-left: 10px;
+   font-size: 2vh;
+}
+.logo {
+    height: 4vh;
+    width:10vw;
+    margin-right: 20px;   
+}
+hr {
+    border-color: rgb(19, 18, 18);
+    width:50%;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+.card {
+    height:100%;
+    background-color: rgb(240, 241, 241);
+    width:80%;
+    box-shadow: 10px 10px 10px 10px rgb(136, 133, 133);
+    border-radius: 15px;
+    background-size: cover;
+}
+.text-container {
+    padding: 25px;
+}
+.card-2 {
+    margin-top: 5vh;
+    margin-left: 10px;
+}
+.img {
+    width: 85%;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px 10px rgb(136, 134, 134);   
+}
+.img-1 {
+    width: 40%;
+    height:55vh;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px 10px rgb(136, 134, 134); 
+}
+
+
